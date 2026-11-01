@@ -98,7 +98,7 @@ class QuantizedFactory:
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--output', type=Path, default=Path('pilot-run'))
+    parser.add_argument('--output', type=Path, default=Path('runs/pilot'))
     args = parser.parse_args()
     if args.output.exists():
         raise SystemExit('Output already exists: preserve the previous run and use a fresh directory.')

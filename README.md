@@ -1,7 +1,7 @@
 # ToolBoundary local authorization lab
 
 Python 3.10+, standard library only. No install, API key, account or network needed.
-Open `../Start ToolBoundary.cmd` on Windows, or run `python review.py` here.
+Open `Start ToolBoundary.cmd` on Windows, or run `python review.py` here.
 
 Inspect an explicit-write case, try `execute_update` with `approved`, then inspect a stale-version case and try the same. The first changes only its in-memory record; the second stays unchanged with a reason. Every replay starts fresh. This is a sandbox, not a security boundary for a real service or a durable approval system.
 
