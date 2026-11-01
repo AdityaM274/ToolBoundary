@@ -33,6 +33,16 @@ def training_pairs(cases):
             for c in cases if c['split'] == 'development']
 
 
+def completion_rows(rows):
+    converted = []
+    for row in rows:
+        messages = row['messages']
+        if len(messages) < 2 or messages[-1]['role'] != 'assistant':
+            raise ValueError('Training example must end with an assistant completion')
+        converted.append({'prompt': messages[:-1], 'completion': messages[-1:]})
+    return converted
+
+
 def infer(model, tokenizer, cases, output, label):
     import torch
     model.eval()
@@ -84,7 +94,7 @@ class QuantizedFactory:
         self.model = prepare_model_for_kbit_training(self.model)
         self.model.config.use_cache = False
         self.trainer = SFTTrainer(model=self.model, processing_class=self.tokenizer,
-            train_dataset=Dataset.from_list(train_dataset), args=SFTConfig(**kwargs),
+            train_dataset=Dataset.from_list(completion_rows(train_dataset)), args=SFTConfig(**kwargs),
             peft_config=LoraConfig(r=8, lora_alpha=16, lora_dropout=0.05,
                 target_modules=['q_proj', 'v_proj'], bias='none', task_type='CAUSAL_LM'))
         self.model = self.trainer.model
@@ -99,7 +109,12 @@ class QuantizedFactory:
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, default=Path('runs/pilot'))
+    parser.add_argument('--cases', type=Path)
+    parser.add_argument('--training-cases', type=Path)
+    parser.add_argument('--steps', type=int, default=30)
     args = parser.parse_args()
+    if not 1 <= args.steps <= 200:
+        parser.error('--steps must be between 1 and 200')
     if args.output.exists():
         raise SystemExit('Output already exists: preserve the previous run and use a fresh directory.')
     import torch
@@ -109,27 +124,33 @@ def main():
     if not torch.cuda.is_available():
         raise SystemExit('No CUDA GPU; no model loaded and no training attempted.')
     revision = HfApi().model_info(MODEL).sha
-    cases = load_cases()
-    pairs = training_pairs(cases)
+    cases = load_cases(args.cases) if args.cases else load_cases()
+    training_cases = load_cases(args.training_cases) if args.training_cases else cases
+    if args.training_cases and {c['id'] for c in training_cases} & {c['id'] for c in cases}:
+        raise SystemExit('Training and evaluation case IDs overlap')
+    pairs = training_pairs(training_cases)
     if not pairs:
         raise SystemExit('No development demonstrations')
     args.output.mkdir(parents=True)
     manifest = {'model': MODEL, 'model_revision': revision,
+        'source_sha256': {name: hashlib.sha256(Path(__file__).with_name(name).read_bytes()).hexdigest() for name in ['toolboundary.py','run_experiment.py']},
+        'training_objective': 'completion-only supervised LoRA',
         'agenttune_commit': 'd4db4c12d52342227c4113a70183d0f64aa2f345',
         'seed': 42, 'gpu': torch.cuda.get_device_name(0), 'torch': torch.__version__,
         'data_sha256': hashlib.sha256(json.dumps(cases, sort_keys=True).encode()).hexdigest(),
-        'training_demonstrations': len(pairs), 'training_steps': 30,
+        'training_data_sha256': hashlib.sha256(json.dumps(training_cases, sort_keys=True).encode()).hexdigest(),
+        'training_demonstrations': len(pairs), 'training_steps': args.steps,
         'status': 'started', 'claim_boundary': 'Small synthetic pilot, not external validation or a completed competition entry'}
     (args.output/'manifest.json').write_text(json.dumps(manifest, indent=2), encoding='utf-8')
     set_seed(42)
     factory = QuantizedFactory(revision)
     before = infer(factory.model, factory.tokenizer, cases, args.output, 'before')
     trainer = create_distill_trainer(student=MODEL, demonstrations=pairs, trainer_factory=factory,
-        output_dir=str(args.output/'training'), max_steps=30, max_length=768,
+        output_dir=str(args.output/'training'), max_steps=args.steps, max_length=768,
         per_device_train_batch_size=1, gradient_accumulation_steps=4, learning_rate=2e-4,
         fp16=True, bf16=False, gradient_checkpointing=True,
         gradient_checkpointing_kwargs={'use_reentrant': False}, logging_steps=5,
-        save_strategy='no', report_to='none', seed=42, data_seed=42)
+        save_strategy='no', report_to='none', seed=42, data_seed=42, completion_only_loss=True)
     started = time.perf_counter()
     trainer.train()
     manifest['training_seconds'] = time.perf_counter()-started

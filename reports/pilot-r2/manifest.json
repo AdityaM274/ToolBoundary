@@ -1,0 +1,14 @@
+{
+  "model": "CohereLabs/tiny-aya-global",
+  "model_revision": "af89d219b53ed9b13b8a4645f9c8028973510324",
+  "agenttune_commit": "d4db4c12d52342227c4113a70183d0f64aa2f345",
+  "seed": 42,
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu130",
+  "data_sha256": "866408b695e144524857d8d32e56d963602bb53e6a6549be0380a82ffac57202",
+  "training_demonstrations": 12,
+  "training_steps": 30,
+  "status": "completed",
+  "claim_boundary": "Small synthetic pilot, not external validation or a completed competition entry",
+  "training_seconds": 182.90516811999987
+}

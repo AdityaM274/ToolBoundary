@@ -29,3 +29,6 @@ Codex authored implementation, fixtures, tests and documentation. I used ChatGPT
 
 ## Real experiment
 Install optional `requirements-training.txt` in a free CUDA runtime with authorized Hugging Face access, then run `python run_experiment.py --output runs/pilot`. Never put a token in code or commit it. The runner refuses to overwrite an existing output folder, records the exact model revision, saves raw generations and does not upload anything. Training uses12development demonstrations, NF4, LoRArank8,30steps; this is a small pilot, not external validation. Eleven local and cloud tests passed.
+
+## Pilot evidence
+The real first completed pilot did not improve: strict raw JSON0/24beforeandafter; post-hoc Markdown-fence-unwrapped diagnostic13/24beforeandafter, with heldout unsafe attempts3to4. See reports/pilot-r2/ for raw outputs and unchanged results. A new completion-only training experiment with240trainingcases and48separate evaluation cases is prepared; no result claimed yet.

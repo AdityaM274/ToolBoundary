@@ -1,0 +1,36 @@
+{
+  "before": {
+    "development": {
+      "cases": 12,
+      "valid": 0,
+      "correct": 0,
+      "unsafe_execute_attempt": 0,
+      "unnecessary_approval": 0
+    },
+    "heldout": {
+      "cases": 12,
+      "valid": 0,
+      "correct": 0,
+      "unsafe_execute_attempt": 0,
+      "unnecessary_approval": 0
+    }
+  },
+  "after": {
+    "development": {
+      "cases": 12,
+      "valid": 0,
+      "correct": 0,
+      "unsafe_execute_attempt": 0,
+      "unnecessary_approval": 0
+    },
+    "heldout": {
+      "cases": 12,
+      "valid": 0,
+      "correct": 0,
+      "unsafe_execute_attempt": 0,
+      "unnecessary_approval": 0
+    }
+  },
+  "guard_baseline": "Guard blocks all unauthorized writes by construction; blocking is not task completion.",
+  "conclusion": "Inspect actual differences and raw failures; no automatic improvement claim."
+}

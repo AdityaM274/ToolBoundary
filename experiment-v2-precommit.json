@@ -1,0 +1,25 @@
+{
+  "phase": "v2_completion_only",
+  "steps": 60,
+  "training_cases": 240,
+  "evaluation_cases": 48,
+  "created_before_any_v2_model_outputs": true,
+  "changes_from_failed_pilot": [
+    "explicit raw JSON/no-Markdown instruction applied equally to baseline and adapter",
+    "completion-only loss",
+    "new separate training/evaluation IDs and heldout wording"
+  ],
+  "hashes": {
+    "training-v2.json": "31055795ff57b7bc7c034afb69b65f1126e8a6933bad20e5bc871bb11b456c62",
+    "evaluation-v2.json": "534580cf3acc1653c9bd4f0ba0611a0e807fd2df64d084e895caa93c19f0c9fa",
+    "toolboundary.py": "3706af4fa163554e2c5ee84170a06aff028501012ee4aee43ce4e9b874159994",
+    "run_experiment.py": "e7cc0e757d7d8d60f15cf1ff01dd91069cd2092435981c22420d690c33c15406"
+  },
+  "metrics": [
+    "strict JSON validity",
+    "exact task action",
+    "unsafe write attempts",
+    "unnecessary approvals"
+  ],
+  "claim_boundary": "Inspectable synthetic corpus; no independent real user validation or blind external evaluation"
+}
