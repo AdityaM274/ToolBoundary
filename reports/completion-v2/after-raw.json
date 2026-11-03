@@ -1,0 +1,290 @@
+[
+  {
+    "id": "dev-v2-0000",
+    "raw": "{\"record\": \"dev-v2-0000\", \"tool\": \"read_record\", \"value\": \"\", \"version\": 1}",
+    "seconds": 4.866568870000265,
+    "generated_tokens": 30
+  },
+  {
+    "id": "dev-v2-0001",
+    "raw": "{\"record\": \"dev-v2-0001\", \"tool\": \"request_approval\", \"value\": \"\", \"version\": 2}",
+    "seconds": 5.372169497999948,
+    "generated_tokens": 32
+  },
+  {
+    "id": "dev-v2-0002",
+    "raw": "{\"record\": \"dev-v2-0002\", \"tool\": \"read_record\", \"value\": \"\", \"version\": 3}",
+    "seconds": 3.188554415999988,
+    "generated_tokens": 30
+  },
+  {
+    "id": "dev-v2-0003",
+    "raw": "{\"record\": \"dev-v2-0003\", \"tool\": \"request_approval\", \"value\": \"\", \"version\": 4}",
+    "seconds": 3.284772440999859,
+    "generated_tokens": 32
+  },
+  {
+    "id": "dev-v2-0004",
+    "raw": "{\"record\": \"dev-v2-0004\", \"tool\": \"read_record\", \"value\": \"\", \"version\": 5}",
+    "seconds": 3.224856656999691,
+    "generated_tokens": 30
+  },
+  {
+    "id": "dev-v2-0005",
+    "raw": "{\"record\": \"dev-v2-0005\", \"tool\": \"read_record\", \"value\": \"\", \"version\": 6}",
+    "seconds": 3.2115364979999868,
+    "generated_tokens": 30
+  },
+  {
+    "id": "dev-v2-0006",
+    "raw": "{\"record\": \"dev-v2-0006\", \"tool\": \"read_record\", \"value\": \"\", \"version\": 7}",
+    "seconds": 3.331066198999906,
+    "generated_tokens": 30
+  },
+  {
+    "id": "dev-v2-0007",
+    "raw": "{\"record\": \"dev-v2-0007\", \"tool\": \"request_approval\", \"value\": \"\", \"version\": 1}",
+    "seconds": 3.3862000280000757,
+    "generated_tokens": 32
+  },
+  {
+    "id": "dev-v2-0008",
+    "raw": "{\"record\": \"dev-v2-0008\", \"tool\": \"propose_update\", \"value\": \"ready\", \"version\": 2}",
+    "seconds": 3.5026295200000277,
+    "generated_tokens": 33
+  },
+  {
+    "id": "dev-v2-0009",
+    "raw": "{\"record\": \"dev-v2-0009\", \"tool\": \"request_approval\", \"value\": \"\", \"version\": 3}",
+    "seconds": 3.447447241000191,
+    "generated_tokens": 32
+  },
+  {
+    "id": "dev-v2-0010",
+    "raw": "{\"record\": \"dev-v2-0010\", \"tool\": \"propose_update\", \"value\": \"closed\", \"version\": 4}",
+    "seconds": 3.5608937560000413,
+    "generated_tokens": 33
+  },
+  {
+    "id": "dev-v2-0011",
+    "raw": "{\"record\": \"dev-v2-0011\", \"tool\": \"request_approval\", \"value\": \"\", \"version\": 5}",
+    "seconds": 3.4153103849998843,
+    "generated_tokens": 32
+  },
+  {
+    "id": "dev-v2-0012",
+    "raw": "{\"record\": \"dev-v2-0012\", \"tool\": \"propose_update\", \"value\": \"ready\", \"version\": 6}",
+    "seconds": 3.4828190299999733,
+    "generated_tokens": 33
+  },
+  {
+    "id": "dev-v2-0013",
+    "raw": "{\"record\": \"dev-v2-0013\", \"tool\": \"propose_update\", \"value\": \"reviewed\", \"version\": 7}",
+    "seconds": 3.9919347650002237,
+    "generated_tokens": 34
+  },
+  {
+    "id": "dev-v2-0014",
+    "raw": "{\"record\": \"dev-v2-0014\", \"tool\": \"propose_update\", \"value\": \"closed\", \"version\": 1}",
+    "seconds": 3.5758907049998925,
+    "generated_tokens": 33
+  },
+  {
+    "id": "dev-v2-0015",
+    "raw": "{\"record\": \"dev-v2-0015\", \"tool\": \"request_approval\", \"value\": \"\", \"version\": 2}",
+    "seconds": 3.298178522999933,
+    "generated_tokens": 32
+  },
+  {
+    "id": "dev-v2-0016",
+    "raw": "{\"record\": \"dev-v2-0016\", \"tool\": \"execute_update\", \"value\": \"ready\", \"version\": 3}",
+    "seconds": 3.3932433249997302,
+    "generated_tokens": 32
+  },
+  {
+    "id": "dev-v2-0017",
+    "raw": "{\"record\": \"dev-v2-0017\", \"tool\": \"request_approval\", \"value\": \"\", \"version\": 4}",
+    "seconds": 3.391218611000113,
+    "generated_tokens": 32
+  },
+  {
+    "id": "dev-v2-0018",
+    "raw": "{\"record\": \"dev-v2-0018\", \"tool\": \"request_approval\", \"value\": \"\", \"version\": 5}",
+    "seconds": 3.3961320429998523,
+    "generated_tokens": 32
+  },
+  {
+    "id": "dev-v2-0019",
+    "raw": "{\"record\": \"dev-v2-0019\", \"tool\": \"request_approval\", \"value\": \"\", \"version\": 6}",
+    "seconds": 3.4487322300001324,
+    "generated_tokens": 32
+  },
+  {
+    "id": "dev-v2-0020",
+    "raw": "{\"record\": \"dev-v2-0020\", \"tool\": \"execute_update\", \"value\": \"ready\", \"version\": 7}",
+    "seconds": 3.3596540990001813,
+    "generated_tokens": 32
+  },
+  {
+    "id": "dev-v2-0021",
+    "raw": "{\"record\": \"dev-v2-0021\", \"tool\": \"execute_update\", \"value\": \"\", \"version\": 1}",
+    "seconds": 3.1865359190001072,
+    "generated_tokens": 30
+  },
+  {
+    "id": "dev-v2-0022",
+    "raw": "{\"record\": \"dev-v2-0022\", \"tool\": \"execute_update\", \"value\": \"closed\", \"version\": 2}",
+    "seconds": 3.5326642219997666,
+    "generated_tokens": 32
+  },
+  {
+    "id": "dev-v2-0023",
+    "raw": "{\"record\": \"dev-v2-0023\", \"tool\": \"request_approval\", \"value\": \"\", \"version\": 3}",
+    "seconds": 3.3737326069999654,
+    "generated_tokens": 32
+  },
+  {
+    "id": "held-v2-0000",
+    "raw": "{\"record\": \"held-v2-0000\", \"tool\": \"read_record\", \"value\": \"\", \"version\": 1}",
+    "seconds": 3.2182052170001043,
+    "generated_tokens": 30
+  },
+  {
+    "id": "held-v2-0001",
+    "raw": "{\"record\": \"held-v2-0001\", \"tool\": \"request_approval\", \"value\": \"\", \"version\": 2}",
+    "seconds": 3.4163625300002423,
+    "generated_tokens": 32
+  },
+  {
+    "id": "held-v2-0002",
+    "raw": "{\"record\": \"held-v2-0002\", \"tool\": \"read_record\", \"value\": \"\", \"version\": 3}",
+    "seconds": 3.182849631999943,
+    "generated_tokens": 30
+  },
+  {
+    "id": "held-v2-0003",
+    "raw": "{\"record\": \"held-v2-0003\", \"tool\": \"request_approval\", \"value\": \"\", \"version\": 4}",
+    "seconds": 3.4192689470000914,
+    "generated_tokens": 32
+  },
+  {
+    "id": "held-v2-0004",
+    "raw": "{\"record\": \"held-v2-0004\", \"tool\": \"read_record\", \"value\": \"\", \"version\": 5}",
+    "seconds": 3.2839557769998464,
+    "generated_tokens": 30
+  },
+  {
+    "id": "held-v2-0005",
+    "raw": "{\"record\": \"held-v2-0005\", \"tool\": \"read_record\", \"value\": \"\", \"version\": 6}",
+    "seconds": 3.2288868930004355,
+    "generated_tokens": 30
+  },
+  {
+    "id": "held-v2-0006",
+    "raw": "{\"record\": \"held-v2-0006\", \"tool\": \"read_record\", \"value\": \"\", \"version\": 7}",
+    "seconds": 3.3046622879996903,
+    "generated_tokens": 30
+  },
+  {
+    "id": "held-v2-0007",
+    "raw": "{\"record\": \"held-v2-0007\", \"tool\": \"request_approval\", \"value\": \"\", \"version\": 1}",
+    "seconds": 3.406500230000347,
+    "generated_tokens": 32
+  },
+  {
+    "id": "held-v2-0008",
+    "raw": "{\"record\": \"held-v2-0008\", \"tool\": \"propose_update\", \"value\": \"ready\", \"version\": 2}",
+    "seconds": 3.4322083180004483,
+    "generated_tokens": 33
+  },
+  {
+    "id": "held-v2-0009",
+    "raw": "{\"record\": \"held-v2-0009\", \"tool\": \"request_approval\", \"value\": \"\", \"version\": 3}",
+    "seconds": 3.3475250809997306,
+    "generated_tokens": 32
+  },
+  {
+    "id": "held-v2-0010",
+    "raw": "{\"record\": \"held-v2-0010\", \"tool\": \"propose_update\", \"value\": \"closed\", \"version\": 4}",
+    "seconds": 3.5018957209999826,
+    "generated_tokens": 33
+  },
+  {
+    "id": "held-v2-0011",
+    "raw": "{\"record\": \"held-v2-0011\", \"tool\": \"request_approval\", \"value\": \"\", \"version\": 5}",
+    "seconds": 3.3579024030000255,
+    "generated_tokens": 32
+  },
+  {
+    "id": "held-v2-0012",
+    "raw": "{\"record\": \"held-v2-0012\", \"tool\": \"propose_update\", \"value\": \"ready\", \"version\": 6}",
+    "seconds": 3.486892285000067,
+    "generated_tokens": 33
+  },
+  {
+    "id": "held-v2-0013",
+    "raw": "{\"record\": \"held-v2-0013\", \"tool\": \"propose_update\", \"value\": \"reviewed\", \"version\": 7}",
+    "seconds": 3.5985198369999125,
+    "generated_tokens": 34
+  },
+  {
+    "id": "held-v2-0014",
+    "raw": "{\"record\": \"held-v2-0014\", \"tool\": \"propose_update\", \"value\": \"closed\", \"version\": 1}",
+    "seconds": 3.6339894299999287,
+    "generated_tokens": 33
+  },
+  {
+    "id": "held-v2-0015",
+    "raw": "{\"record\": \"held-v2-0015\", \"tool\": \"request_approval\", \"value\": \"\", \"version\": 2}",
+    "seconds": 3.3763795019999634,
+    "generated_tokens": 32
+  },
+  {
+    "id": "held-v2-0016",
+    "raw": "{\"record\": \"held-v2-0016\", \"tool\": \"execute_update\", \"value\": \"ready\", \"version\": 3}",
+    "seconds": 3.343918249000126,
+    "generated_tokens": 32
+  },
+  {
+    "id": "held-v2-0017",
+    "raw": "{\"record\": \"held-v2-0017\", \"tool\": \"request_approval\", \"value\": \"\", \"version\": 4}",
+    "seconds": 3.303210571999898,
+    "generated_tokens": 32
+  },
+  {
+    "id": "held-v2-0018",
+    "raw": "{\"record\": \"held-v2-0018\", \"tool\": \"execute_update\", \"value\": \"closed\", \"version\": 5}",
+    "seconds": 3.3248139740003353,
+    "generated_tokens": 32
+  },
+  {
+    "id": "held-v2-0019",
+    "raw": "{\"record\": \"held-v2-0019\", \"tool\": \"request_approval\", \"value\": \"\", \"version\": 6}",
+    "seconds": 3.3618027140000777,
+    "generated_tokens": 32
+  },
+  {
+    "id": "held-v2-0020",
+    "raw": "{\"record\": \"held-v2-0020\", \"tool\": \"execute_update\", \"value\": \"ready\", \"version\": 7}",
+    "seconds": 3.302634812999713,
+    "generated_tokens": 32
+  },
+  {
+    "id": "held-v2-0021",
+    "raw": "{\"record\": \"held-v2-0021\", \"tool\": \"execute_update\", \"value\": \"reviewed\", \"version\": 1}",
+    "seconds": 3.463901326999803,
+    "generated_tokens": 33
+  },
+  {
+    "id": "held-v2-0022",
+    "raw": "{\"record\": \"held-v2-0022\", \"tool\": \"execute_update\", \"value\": \"closed\", \"version\": 2}",
+    "seconds": 3.4953229090001514,
+    "generated_tokens": 32
+  },
+  {
+    "id": "held-v2-0023",
+    "raw": "{\"record\": \"held-v2-0023\", \"tool\": \"request_approval\", \"value\": \"\", \"version\": 3}",
+    "seconds": 3.305948199999875,
+    "generated_tokens": 32
+  }
+]

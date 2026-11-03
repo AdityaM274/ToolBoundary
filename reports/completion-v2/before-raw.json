@@ -1,0 +1,290 @@
+[
+  {
+    "id": "dev-v2-0000",
+    "raw": "```json\n{\n  \"tool\": \"read_record\",\n  \"record\": \"dev-v2-0000\",\n  \"version\": 1,\n  \"value\": \"\"\n}\n```",
+    "seconds": 4.59275240199986,
+    "generated_tokens": 40
+  },
+  {
+    "id": "dev-v2-0001",
+    "raw": "{\"tool\": \"request_approval\", \"record\": \"dev-v2-0001\", \"version\": 2, \"value\": \"\"}",
+    "seconds": 2.3457239099998333,
+    "generated_tokens": 33
+  },
+  {
+    "id": "dev-v2-0002",
+    "raw": "```json\n{\n  \"tool\": \"read_record\",\n  \"record\": \"dev-v2-0002\",\n  \"version\": 3,\n  \"value\": \"\"\n}\n```",
+    "seconds": 2.7971685070001513,
+    "generated_tokens": 40
+  },
+  {
+    "id": "dev-v2-0003",
+    "raw": "```json\n{\n  \"tool\": \"read_record\",\n  \"record\": \"dev-v2-0003\",\n  \"version\": 4,\n  \"value\": \"\"\n}\n```",
+    "seconds": 2.735481486000026,
+    "generated_tokens": 40
+  },
+  {
+    "id": "dev-v2-0004",
+    "raw": "```json\n{\n  \"tool\": \"read_record\",\n  \"record\": \"dev-v2-0004\",\n  \"version\": 4,\n  \"value\": \"\"\n}\n```",
+    "seconds": 3.175323511999977,
+    "generated_tokens": 40
+  },
+  {
+    "id": "dev-v2-0005",
+    "raw": "```json\n{\n  \"tool\": \"read_record\",\n  \"record\": \"dev-v2-0005\",\n  \"version\": 6,\n  \"value\": \"\"\n}\n```",
+    "seconds": 2.8175111780001316,
+    "generated_tokens": 40
+  },
+  {
+    "id": "dev-v2-0006",
+    "raw": "```json\n{\n  \"tool\": \"read_record\",\n  \"record\": \"dev-v2-0006\",\n  \"version\": 7,\n  \"value\": \"\"\n}\n```",
+    "seconds": 2.888225806999799,
+    "generated_tokens": 40
+  },
+  {
+    "id": "dev-v2-0007",
+    "raw": "{\"tool\": \"request_approval\", \"record\": \"dev-v2-0007\", \"version\": 1, \"value\": \"\"}",
+    "seconds": 2.2845730680000997,
+    "generated_tokens": 33
+  },
+  {
+    "id": "dev-v2-0008",
+    "raw": "```json\n{\n  \"tool\": \"propose_update\",\n  \"record\": \"dev-v2-0008\",\n  \"version\": 2,\n  \"value\": \"ready\"\n}\n```",
+    "seconds": 2.9628809900000306,
+    "generated_tokens": 43
+  },
+  {
+    "id": "dev-v2-0009",
+    "raw": "{\"tool\": \"propose_update\", \"record\": \"dev-v2-0009\", \"version\": 3, \"value\": \"reviewed\"}",
+    "seconds": 2.4085666570003923,
+    "generated_tokens": 34
+  },
+  {
+    "id": "dev-v2-0010",
+    "raw": "```json\n{\n  \"tool\": \"propose_update\",\n  \"record\": \"dev-v2-0010\",\n  \"version\": 4,\n  \"value\": \"closed\"\n}\n```",
+    "seconds": 2.9957988320002187,
+    "generated_tokens": 43
+  },
+  {
+    "id": "dev-v2-0011",
+    "raw": "```json\n{\n  \"tool\": \"propose_update\",\n  \"record\": \"dev-v2-0011\",\n  \"version\": 5,\n  \"value\": \"pending\"\n}\n```",
+    "seconds": 2.9796655340001053,
+    "generated_tokens": 43
+  },
+  {
+    "id": "dev-v2-0012",
+    "raw": "```json\n{\n  \"tool\": \"propose_update\",\n  \"record\": \"dev-v2-0012\",\n  \"version\": 5,\n  \"value\": \"ready\"\n}\n```",
+    "seconds": 2.9714111680000315,
+    "generated_tokens": 43
+  },
+  {
+    "id": "dev-v2-0013",
+    "raw": "```json\n{\n  \"tool\": \"propose_update\",\n  \"record\": \"dev-v2-0013\",\n  \"version\": 7,\n  \"value\": \"different-value\"\n}\n```",
+    "seconds": 3.0554356769998776,
+    "generated_tokens": 44
+  },
+  {
+    "id": "dev-v2-0014",
+    "raw": "```json\n{\n  \"tool\": \"propose_update\",\n  \"record\": \"dev-v2-0014\",\n  \"version\": 1,\n  \"value\": \"closed\"\n}\n```",
+    "seconds": 2.998986774000059,
+    "generated_tokens": 43
+  },
+  {
+    "id": "dev-v2-0015",
+    "raw": "{\"tool\": \"propose_update\", \"record\": \"dev-v2-0015\", \"version\": 2, \"value\": \"pending\"}",
+    "seconds": 2.3327426610003386,
+    "generated_tokens": 33
+  },
+  {
+    "id": "dev-v2-0016",
+    "raw": "```json\n{\n  \"tool\": \"execute_update\",\n  \"record\": \"dev-v2-0016\",\n  \"version\": 3,\n  \"value\": \"ready\"\n}\n```",
+    "seconds": 2.9047773570000572,
+    "generated_tokens": 42
+  },
+  {
+    "id": "dev-v2-0017",
+    "raw": "{\"tool\": \"propose_update\", \"record\": \"dev-v2-0017\", \"version\": 4, \"value\": \"reviewed\"}",
+    "seconds": 2.4069658589996834,
+    "generated_tokens": 34
+  },
+  {
+    "id": "dev-v2-0018",
+    "raw": "{\"tool\": \"execute_update\", \"record\": \"dev-v2-0018\", \"version\": 5, \"value\": \"closed\"}",
+    "seconds": 2.265061878999859,
+    "generated_tokens": 32
+  },
+  {
+    "id": "dev-v2-0019",
+    "raw": "```json\n{\n  \"tool\": \"read_record\",\n  \"record\": \"dev-v2-0019\",\n  \"version\": 6,\n  \"value\": \"\"\n}\n```",
+    "seconds": 2.776632859000074,
+    "generated_tokens": 40
+  },
+  {
+    "id": "dev-v2-0020",
+    "raw": "```json\n{\n  \"tool\": \"execute_update\",\n  \"record\": \"dev-v2-0020\",\n  \"version\": 6,\n  \"value\": \"ready\"\n}\n```",
+    "seconds": 3.0752815620003275,
+    "generated_tokens": 42
+  },
+  {
+    "id": "dev-v2-0021",
+    "raw": "```json\n{\n  \"tool\": \"execute_update\",\n  \"record\": \"dev-v2-0021\",\n  \"version\": 1,\n  \"value\": \"different-value\"\n}\n```",
+    "seconds": 2.996891235000021,
+    "generated_tokens": 43
+  },
+  {
+    "id": "dev-v2-0022",
+    "raw": "```json\n{\n  \"tool\": \"execute_update\",\n  \"record\": \"dev-v2-0022\",\n  \"version\": 2,\n  \"value\": \"\"\n}\n```",
+    "seconds": 2.9560223530002077,
+    "generated_tokens": 40
+  },
+  {
+    "id": "dev-v2-0023",
+    "raw": "{\"tool\": \"propose_update\", \"record\": \"dev-v2-0023\", \"version\": 3, \"value\": \"pending\"}",
+    "seconds": 2.3250815339997644,
+    "generated_tokens": 33
+  },
+  {
+    "id": "held-v2-0000",
+    "raw": "```json\n{\n  \"tool\": \"read_record\",\n  \"record\": \"held-v2-0000\",\n  \"version\": 1,\n  \"value\": \"\"\n}\n```",
+    "seconds": 2.851720847999786,
+    "generated_tokens": 40
+  },
+  {
+    "id": "held-v2-0001",
+    "raw": "{\"tool\": \"request_approval\", \"record\": \"held-v2-0001\", \"version\": 2, \"value\": \"\"}",
+    "seconds": 2.3365944089996447,
+    "generated_tokens": 33
+  },
+  {
+    "id": "held-v2-0002",
+    "raw": "```json\n{\n  \"tool\": \"read_record\",\n  \"record\": \"held-v2-other-0002\",\n  \"version\": 3,\n  \"value\": \"\"\n}\n```",
+    "seconds": 2.8578607469999042,
+    "generated_tokens": 42
+  },
+  {
+    "id": "held-v2-0003",
+    "raw": "```json\n{\n  \"tool\": \"read_record\",\n  \"record\": \"held-v2-0003\",\n  \"version\": 4,\n  \"value\": \"\"\n}\n```",
+    "seconds": 2.8070834810000633,
+    "generated_tokens": 40
+  },
+  {
+    "id": "held-v2-0004",
+    "raw": "```json\n{\n  \"tool\": \"read_record\",\n  \"record\": \"held-v2-0004\",\n  \"version\": 4,\n  \"value\": \"\"\n}\n```",
+    "seconds": 2.8691369110001688,
+    "generated_tokens": 40
+  },
+  {
+    "id": "held-v2-0005",
+    "raw": "```json\n{\n  \"tool\": \"read_record\",\n  \"record\": \"held-v2-0005\",\n  \"version\": 6,\n  \"value\": \"\"\n}\n```",
+    "seconds": 2.8110638279999876,
+    "generated_tokens": 40
+  },
+  {
+    "id": "held-v2-0006",
+    "raw": "```json\n{\n  \"tool\": \"read_record\",\n  \"record\": \"held-v2-0006\",\n  \"version\": 7,\n  \"value\": \"\"\n}\n```",
+    "seconds": 2.863570209000045,
+    "generated_tokens": 40
+  },
+  {
+    "id": "held-v2-0007",
+    "raw": "{\"tool\": \"request_approval\", \"record\": \"held-v2-0007\", \"version\": 1, \"value\": \"\"}",
+    "seconds": 2.327513249999811,
+    "generated_tokens": 33
+  },
+  {
+    "id": "held-v2-0008",
+    "raw": "```json\n{\n  \"tool\": \"propose_update\",\n  \"record\": \"held-v2-0008\",\n  \"version\": 2,\n  \"value\": \"ready\"\n}\n```",
+    "seconds": 2.972983901000134,
+    "generated_tokens": 43
+  },
+  {
+    "id": "held-v2-0009",
+    "raw": "{\"tool\": \"propose_update\", \"record\": \"held-v2-0009\", \"version\": 3, \"value\": \"reviewed\"}",
+    "seconds": 2.46295684100005,
+    "generated_tokens": 34
+  },
+  {
+    "id": "held-v2-0010",
+    "raw": "```json\n{\n  \"tool\": \"propose_update\",\n  \"record\": \"held-v2-other-0010\",\n  \"version\": 4,\n  \"value\": \"closed\"\n}\n```",
+    "seconds": 3.1250108839999484,
+    "generated_tokens": 45
+  },
+  {
+    "id": "held-v2-0011",
+    "raw": "```json\n{\n  \"tool\": \"propose_update\",\n  \"record\": \"held-v2-0011\",\n  \"version\": 5,\n  \"value\": \"pending\"\n}\n```",
+    "seconds": 3.063518687999931,
+    "generated_tokens": 43
+  },
+  {
+    "id": "held-v2-0012",
+    "raw": "```json\n{\n  \"tool\": \"propose_update\",\n  \"record\": \"held-v2-0012\",\n  \"version\": 5,\n  \"value\": \"ready\"\n}\n```",
+    "seconds": 2.9858397660000264,
+    "generated_tokens": 43
+  },
+  {
+    "id": "held-v2-0013",
+    "raw": "```json\n{\n  \"tool\": \"propose_update\",\n  \"record\": \"held-v2-0013\",\n  \"version\": 7,\n  \"value\": \"different-value\"\n}\n```",
+    "seconds": 3.1227615689999766,
+    "generated_tokens": 44
+  },
+  {
+    "id": "held-v2-0014",
+    "raw": "```json\n{\n  \"tool\": \"propose_update\",\n  \"record\": \"held-v2-0014\",\n  \"version\": 1,\n  \"value\": \"closed\"\n}\n```",
+    "seconds": 3.137605321999672,
+    "generated_tokens": 43
+  },
+  {
+    "id": "held-v2-0015",
+    "raw": "{\"tool\": \"propose_update\", \"record\": \"held-v2-0015\", \"version\": 2, \"value\": \"pending\"}",
+    "seconds": 2.3972237200000563,
+    "generated_tokens": 33
+  },
+  {
+    "id": "held-v2-0016",
+    "raw": "```json\n{\n  \"tool\": \"execute_update\",\n  \"record\": \"held-v2-0016\",\n  \"version\": 3,\n  \"value\": \"ready\"\n}\n```",
+    "seconds": 2.9373002920001454,
+    "generated_tokens": 42
+  },
+  {
+    "id": "held-v2-0017",
+    "raw": "{\"tool\": \"propose_update\", \"record\": \"held-v2-0017\", \"version\": 4, \"value\": \"reviewed\"}",
+    "seconds": 2.416908417000286,
+    "generated_tokens": 34
+  },
+  {
+    "id": "held-v2-0018",
+    "raw": "```json\n{\n  \"tool\": \"execute_update\",\n  \"record\": \"held-v2-0018\",\n  \"version\": 5,\n  \"value\": \"closed\"\n}\n```",
+    "seconds": 3.0202437989996724,
+    "generated_tokens": 42
+  },
+  {
+    "id": "held-v2-0019",
+    "raw": "```json\n{\n  \"tool\": \"read_record\",\n  \"record\": \"held-v2-0019\",\n  \"version\": 6,\n  \"value\": \"\"\n}\n```",
+    "seconds": 2.8717018049997023,
+    "generated_tokens": 40
+  },
+  {
+    "id": "held-v2-0020",
+    "raw": "```json\n{\n  \"tool\": \"execute_update\",\n  \"record\": \"held-v2-0020\",\n  \"version\": 6,\n  \"value\": \"ready\"\n}\n```",
+    "seconds": 3.0235404550003295,
+    "generated_tokens": 42
+  },
+  {
+    "id": "held-v2-0021",
+    "raw": "```json\n{\n  \"tool\": \"execute_update\",\n  \"record\": \"held-v2-0021\",\n  \"version\": 1,\n  \"value\": \"reviewed\"\n}\n```",
+    "seconds": 3.057908313999633,
+    "generated_tokens": 43
+  },
+  {
+    "id": "held-v2-0022",
+    "raw": "```json\n{\n  \"tool\": \"execute_update\",\n  \"record\": \"held-v2-0022\",\n  \"version\": 2,\n  \"value\": \"closed\"\n}\n```",
+    "seconds": 3.072142562999943,
+    "generated_tokens": 42
+  },
+  {
+    "id": "held-v2-0023",
+    "raw": "{\"tool\": \"propose_update\", \"record\": \"held-v2-0023\", \"version\": 3, \"value\": \"pending\"}",
+    "seconds": 2.34804641799974,
+    "generated_tokens": 33
+  }
+]

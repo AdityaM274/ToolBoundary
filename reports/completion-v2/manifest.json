@@ -1,0 +1,20 @@
+{
+  "model": "CohereLabs/tiny-aya-global",
+  "model_revision": "af89d219b53ed9b13b8a4645f9c8028973510324",
+  "source_sha256": {
+    "toolboundary.py": "3706af4fa163554e2c5ee84170a06aff028501012ee4aee43ce4e9b874159994",
+    "run_experiment.py": "e7cc0e757d7d8d60f15cf1ff01dd91069cd2092435981c22420d690c33c15406"
+  },
+  "training_objective": "completion-only supervised LoRA",
+  "agenttune_commit": "d4db4c12d52342227c4113a70183d0f64aa2f345",
+  "seed": 42,
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu130",
+  "data_sha256": "aa7fbfaf183c3fc5c7b5ff531901385874f3d8d09dbeb652c9e552f6a5f98df7",
+  "training_data_sha256": "5748186cdf14fd8411ba25042d4c4915adfc26dc8cbd4e5644e5e177ab2d1be8",
+  "training_demonstrations": 240,
+  "training_steps": 60,
+  "status": "completed",
+  "claim_boundary": "Small synthetic pilot, not external validation or a completed competition entry",
+  "training_seconds": 348.884119542
+}
